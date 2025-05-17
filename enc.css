@@ -1,0 +1,106 @@
+/* Body background and font */
+body {
+	background-image: url(images/body-background.jpg); /* Background image */
+	background-size: 100%; /* Cover entire body */
+	font-family: 'Courier New', Courier, monospace; /* Monospace font */
+}
+
+/* Header container */
+.header {
+	width: 100%; /* Full width */
+	padding: 10px; /* Inner spacing */
+	margin: -5px; /* Negative margin for layout adjustment */
+	text-align: center; /* Center text */
+	font-size: 25px; /* Large text */
+	color: rgb(211, 159, 159); /* Light pinkish color */
+	font-weight: bold; /* Bold font */
+	min-height: 50px; /* Minimum height */
+}
+
+/* Title inside header */
+.header .title {
+	margin: 5px; /* Small margin */
+}
+
+/* Textarea input style */
+textarea {
+	resize: none; /* Disable resizing */
+	width: 80%; /* Wide input */
+	height: 150px; /* Fixed height */
+	margin: 20px 10px; /* Outer spacing */
+	padding: 5px; /* Inner padding */
+	font-size: 12.5px; /* Smaller font */
+	border-radius: 5px; /* Rounded corners */
+	border: none; /* No border */
+	background-color: black; /* Black background */
+	color: rgb(155, 137, 137); /* Greyish text color */
+}
+
+/* Password input box */
+input[name="password"] {
+	width: 60%; /* Medium width */
+	padding: 10px 7.5px; /* Inner padding */
+	background-color: rgb(53, 51, 51); /* Dark gray background */
+	color: white; /* White text */
+	border: 2px black solid; /* Black border */
+	border-radius: 4px; /* Rounded edges */
+}
+
+/* Main container box */
+.container {
+	width: 85%; /* Wide container */
+	margin: 20px 7%; /* Outer margin */
+	background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+	text-align: center; /* Center content */
+	padding: 10px; /* Inner padding */
+}
+
+/* General button styling */
+button {
+	border: none; /* No border */
+	border-radius: 5px; /* Rounded corners */
+	padding: 10px 15px; /* Padding */
+	margin: 2px 5px; /* Space between buttons */
+	/* font-weight: bold; */ /* Commented out bold font */
+}
+
+/* Encrypt button style */
+#encrypt-btn {
+	color: #000; /* Black text */
+	background-color: #2ecc71; /* Green background */
+	border: 1px solid #000; /* Black border */
+}
+
+/* Encrypt button hover effect */
+#encrypt-btn:hover {
+	color: #2ecc71; /* Green text */
+	background-color: #000; /* Black background */
+	border: 1px solid #2ecc71; /* Green border */
+}
+
+/* Decrypt button style */
+#decrypt-btn {
+	color: #000; /* Black text */
+	background-color: #e74c3c; /* Red background */
+	border: 1px solid #000; /* Black border */
+}
+
+/* Decrypt button hover effect */
+#decrypt-btn:hover {
+	color: #e74c3c; /* Red text */
+	background-color: #000; /* Black background */
+	border: 1px solid #e74c3c; /* Red border */
+}
+
+/* Footer styling */
+.footer {
+	width: 100%; /* Full width */
+	text-align: center; /* Center text */
+	color: #fff; /* White text */
+	background-color: #34495e; /* Dark blue-gray background */
+	min-height: 50px; /* Minimum height */
+	font-size: 17.5px; /* Medium font size */
+	padding: 10px; /* Inner padding */
+	margin: -5px; /* Negative margin for layout */
+	border-top: 1px solid #fff; /* White top border */
+}
